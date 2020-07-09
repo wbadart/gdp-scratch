@@ -1,0 +1,19 @@
+name:                hdsk2
+version:             0.1.0.0
+#synopsis:
+#description:
+homepage:            https://github.com/wbadart/hdsk
+license:             BSD3
+author:              Will Badart
+maintainer:          will (at) willbadart (dot) com
+copyright:           2020 Will Badart
+category:            Web
+extra-source-files:
+- README.md
+
+dependencies:
+- base >= 4.7 && < 5
+- gdp == 	0.0.3.*
+
+library:
+  source-dirs:      src
